@@ -12,15 +12,18 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v1
 
-      - name: Use Node.js
-        uses: actions/setup-node@v4
+      - name: Use Node.js 21.x
+        uses: actions/setup-node@v1
         with:
           node-version: 21.x
           
-      - name: Install Deps
+      - name: :toolbox: Install Deps and 
         run: npm run render-build
+
+      - name: Start Application
+        run: npm run start
 
       - name: Run Cypress Component test
         run: npm run test-component
