@@ -23,7 +23,7 @@ jobs:
       run: npm run render-build
 
     - name: Start App
-      run: npm run start
+      run: npm run dev
 
     - name: Run Cypress Component test
       run: npm run test-component
