@@ -31,11 +31,11 @@ As applications scale, ensuring code quality and deployment consistency becomes 
 
 ## Links
 
-GitHub repo - 
+Gist Link - https://gist.github.com/Leo-webdev7/60957691c891058a9e973f9e9e8a0e34
 
 Render Link - https://two0-challenge-github-actions-ci-cd-setup.onrender.com
 
-Gist Link - https://github.com/Leo-webdev7/20-Challenge-GitHub-actions-CI-CD-Setup
+GitHub repo - https://github.com/Leo-webdev7/20-Challenge-GitHub-actions-CI-CD-Setup
 
 ## Test Instructions
 
