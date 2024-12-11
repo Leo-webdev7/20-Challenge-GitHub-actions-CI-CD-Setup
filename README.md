@@ -32,7 +32,9 @@ As applications scale, ensuring code quality and deployment consistency becomes 
 ## Links
 
 GitHub repo - 
+
 Render Link - https://two0-challenge-github-actions-ci-cd-setup.onrender.com
+
 Gist Link - https://github.com/Leo-webdev7/20-Challenge-GitHub-actions-CI-CD-Setup
 
 ## Test Instructions
