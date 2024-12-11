@@ -11,19 +11,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v1
+      # Checkout code
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
-      - name: Use Node.js 21.x
-        uses: actions/setup-node@v1
+      # Setup Node.js environment
+      - name: Setup Node.js 21.x
+        uses: actions/setup-node@v3
         with:
           node-version: 21.x
-          
-      - name: :toolbox: Install Deps and 
+
+      # Install dependencies
+      - name: Install Dependencies
+        run: npm install
+
+      # Build the application
+      - name: Build Application
         run: npm run render-build
 
+      # Start the application (use & to run in the background if needed)
       - name: Start Application
-        run: npm run start
+        run: |
+          npm run start &
+          sleep 5 # Allow time for the server to start
 
-      - name: Run Cypress Component test
+      # Run Cypress component tests
+      - name: Run Cypress Component Tests
         run: npm run test-component
