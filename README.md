@@ -16,23 +16,30 @@
 
 As applications scale, ensuring code quality and deployment consistency becomes paramount. Software engineers utilize Continuous Integration (CI) and Continuous Deployment (CD) pipelines to maintain high-quality code standards and automate the deployment process. This project demonstrates setting up a CI/CD pipeline using GitHub Actions to integrate testing and deployment workflows.
 
+![2024-12-10_221927](https://github.com/user-attachments/assets/42cc33f5-ec51-40b9-8aeb-084572ea43eb)
+
+
 ## Installation
 
-1. Clone repo. 2. To start this application you will need MongoDB Atlas to deploy CI/CD Test live
+1. Clone repo.
+2. To start this application you will need MongoDB Atlas to deploy CI/CD Test live
 
 ## Usage Information
 
-1. Take React Tech Quiz. 2. Read gist full installation instructions.
+1. Take React Tech Quiz.
+2. Read gist full installation instructions.
 
 ## Links
 
-Please refer to the CONTRIBUTING.md file for guidelines.
+GitHub repo - 
+Render Link - https://two0-challenge-github-actions-ci-cd-setup.onrender.com
+Gist Link - https://github.com/Leo-webdev7/20-Challenge-GitHub-actions-CI-CD-Setup
 
 ## Test Instructions
 
-npm run test
-npm run test-gui
-npm run test-component
+1. npm run test
+2. npm run test-gui
+3. npm run test-component
 
 ## License
 
